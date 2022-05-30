@@ -113,6 +113,28 @@ h2 {
     cursor: pointer;
 }
 
+#contact-buttons {
+    text-align: center;
+    margin: 40px auto 30px;
+    width: 80%;
+}
+
+#resume {
+    background: #232323;
+    /* border: 2px solid bisque; */
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #a0a0a0;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+#resume:hover {
+    background-color: #2e2e2e;
+    color: #ededed;
+}
+
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
