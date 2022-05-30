@@ -4,10 +4,10 @@ body {
     color: #ededed;
     /* font-family: 'Comfortaa', cursive; */
     /* font-family: 'Space Mono', monospace; */
-    /* font-family: 'Mulish', sans-serif; */
+    font-family: 'Mulish', sans-serif;
     /* font-family: 'Nunito', sans-serif; */
     /* font-family: 'Inter', sans-serif; */
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
 }
 
 p {
@@ -144,6 +144,19 @@ h2 {
     align-items: center;
     justify-content: center;
 } */
+
+.badge-section {
+    margin-left: 3%;
+}
+
+.badge {
+    background-color: #282828;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 18px;
+    /* line-height: 20px; */
+    color: #a0a0a0;
+}
 
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 50%}
