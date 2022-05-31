@@ -17,6 +17,7 @@ p {
 }
 
 h2 {
+    /* margin-top: 0; */
     font-size: 28px;
     line-height: 40px;
     font-weight: 400;
@@ -51,10 +52,10 @@ h2 {
 #container {
     display: flex;
     flex-direction: column;
-    margin: 5% auto;
+    margin: 3% auto;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 90%;
 }
 
 #hero-content {
@@ -209,7 +210,7 @@ h2 {
         margin-bottom: 50px;
     }
     #container {
-        margin: 5% 10%;
+        margin: 2% 10%;
         display: flex;
         flex-direction: row;
         align-items: start;
@@ -219,7 +220,7 @@ h2 {
         background: #161616;
         border: 0.5px solid #343434;
         position: sticky;
-        top: 10%;
+        top: 2%;
         /* max-width: 300px;
         min-width: 300px; */
         max-width: 30%;
