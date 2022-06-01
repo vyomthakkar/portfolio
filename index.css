@@ -107,7 +107,71 @@ h2 {
     -moz-animation: AnimationName 10s ease infinite;
     -o-animation: AnimationName 10s ease infinite;
     animation: AnimationName 10s ease infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+/* #card-hero-1  {
+    background: linear-gradient(92deg, #dd07ff, #1044e6);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    -o-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+} */
+
+#card-hero-2 {
+    background: linear-gradient(92deg, #35e2b5, #01ed64);
+    background-size: 600% 600%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    -o-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+
+#card-hero-3 {
+    /* background-image: url(images/xray.png);
+    background-size: cover; */
+    background: #68339E;
+}
+
+#card-hero-4 {
+    /* background-image: url(images/mario.png);
+    background-size: cover; */
+    background: #FED966;
+}
+
+#card-hero-5 {
+    /* background-image: url(images/uiux.png);
+    background-size: cover; */
+    background: #00AFF0;
+}
+
+/* .card-image-3 {
+    width: 80%;
+    height: 80%;
+    background-image: url(images/uiux.png);
+    background-size: cover;
+} */
+
+/* .card-image-4 {
+    width: 80%;
+    height: 80%;
+    background-image: url(images/uiux.png);
+    background-size: cover;
+} */
+
+/* .card-image-5 {
+    width: 80%;
+    height: 80%;
+    background-image: url(images/uiux-ii.png);
+    background-size: cover;
+} */
+
+
+
+
 
 #alma:hover {
     color: orange;
@@ -275,5 +339,20 @@ h2 {
         height: 350px;
         border: 1px solid #343434;
         border-radius: 40px;
+    }
+
+    #card-hero-3 {
+        background-image: url(images/xray.png);
+        background-size: cover;
+    }
+    
+    #card-hero-4 {
+        background-image: url(images/mario.png);
+        background-size: cover;
+    }
+    
+    #card-hero-5 {
+        background-image: url(images/uiux.png);
+        background-size: cover;
     }
 }
